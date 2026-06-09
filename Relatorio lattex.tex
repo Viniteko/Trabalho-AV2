@@ -1,0 +1,254 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Relatório - Haiku OS}
+\fancyhead[R]{Sistemas Operacionais}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+%------------------------------------------------
+% CAPA
+%------------------------------------------------
+
+\begin{titlepage}
+    \centering
+    
+    {\Large \textbf{CENTRO UNIVERSITÁRIO MAURÍCIO DE NASSAU - UNINASSAU}}\\
+    \vspace{2cm}
+    
+    {\Huge \textbf{HAIKU OS}}\\
+    \vspace{1cm}
+    
+    {\Large Relatório da disciplina de Sistemas Operacionais}\\
+    \vspace{2cm}
+    
+    \textbf{Alunos:}\\[0.5cm]
+    
+    André Gomes Moura - 01793413\\
+    Carlos Vinícius Andrade Carvalho - 01581860\\
+    João Pedro Machado da Silva - 01782106\\
+    Jorge Vilela dos Santos Neto - 01778458\\
+    
+    \vfill
+    
+    Maceió - AL\\
+    2026
+    
+\end{titlepage}
+
+%------------------------------------------------
+% SUMÁRIO
+%------------------------------------------------
+
+\tableofcontents
+\newpage
+
+%------------------------------------------------
+% INTRODUÇÃO
+%------------------------------------------------
+
+\section{Introdução}
+
+O Haiku OS é um sistema operacional de código aberto desenvolvido com foco em computação pessoal.
+Inspirado diretamente no antigo sistema operacional BeOS, o projeto busca oferecer um ambiente moderno, leve, rápido e eficiente para computadores desktop.
+O sistema prioriza simplicidade, desempenho e boa experiência do usuário, funcionando bem até mesmo em computadores mais modestos.
+Além disso, o Haiku é mantido pela comunidade open source, permitindo colaboração de desenvolvedores do mundo inteiro.
+
+%------------------------------------------------
+% O QUE É O HAIKU
+%------------------------------------------------
+
+\section{O que é o Haiku OS}
+
+O Haiku OS é um sistema operacional open source inspirado no BeOS, criado para oferecer rapidez, estabilidade e simplicidade.
+
+\subsection{Sistema Operacional Open Source}
+
+Por possuir código aberto, qualquer pessoa pode estudar, modificar e contribuir para o desenvolvimento do sistema.
+O Haiku foi inspirado no \textbf{BeOS}, sistema operacional revolucionário lançado em 1995 pela empresa Be Inc., fundada por Jean-Louis Gassée, ex-executivo da Apple.
+
+\subsection{Interface Moderna}
+
+O sistema possui interface moderna, organizada e intuitiva, oferecendo facilidade de uso e boa experiência ao usuário.
+
+\subsection{Leve, Rápido e Simples}
+
+O Haiku consome poucos recursos do computador, possui inicialização rápida e responde rapidamente aos comandos do usuário.
+
+\subsection{Foco em Desktop}
+
+Seu foco principal é o uso em computadores pessoais, priorizando multitarefa, desempenho e facilidade de uso.
+
+%------------------------------------------------
+% HISTÓRIA
+%------------------------------------------------
+
+\section{História do Haiku}
+
+O Haiku surgiu como um projeto open source criado para continuar o legado do antigo sistema operacional BeOS.
+O BeOS foi desenvolvido na década de 1990 e ficou conhecido por ser extremamente rápido, leve e moderno para sua época.
+Entre suas principais qualidades estavam:
+
+\begin{itemize}
+    \item Excelente multitarefa;
+    \item Boa interface gráfica;
+    \item Alto desempenho;
+    \item Inicialização rápida;
+    \item Ótima eficiência no uso do hardware.
+\end{itemize}
+
+Com o encerramento do projeto original, a comunidade decidiu criar o Haiku OS para recriar e modernizar o sistema, mantendo foco em desempenho, leveza e simplicidade.
+
+%------------------------------------------------
+% CARACTERÍSTICAS
+%------------------------------------------------
+
+\section{Características Principais}
+
+\subsection{Arquitetura Híbrida e Modular}
+
+O kernel do Haiku utiliza arquitetura híbrida, combinando características de kernels monolíticos e microkernels.
+
+\subsection{Uso de C++ e Orientação a Objetos}
+
+O Haiku faz forte uso da linguagem C++, diferente da maioria dos sistemas operacionais modernos.
+
+\subsection{Baixa Latência (Soft Real-Time)}
+
+O sistema possui foco em alta responsividade e baixa latência.
+
+\subsection{Compatibilidade POSIX}
+
+Apesar de independente, o Haiku possui compatibilidade com o padrão POSIX.
+
+%------------------------------------------------
+% ESTRUTURA
+%------------------------------------------------
+
+\section{Estrutura do Sistema Operacional}
+
+O sistema operacional Haiku possui os seguintes componentes principais:
+
+\begin{itemize}
+    \item Kernel;
+    \item Interface gráfica;
+    \item Terminal;
+    \item Gerenciador de arquivos;
+    \item Drivers.
+\end{itemize}
+
+%------------------------------------------------
+% KERNEL
+%------------------------------------------------
+
+\section{Kernel do Haiku}
+
+O kernel é o núcleo do sistema operacional e funciona como o cérebro do computador.
+Ele é responsável por controlar a comunicação entre software e hardware.
+
+\subsection{Funções do Kernel}
+
+\begin{itemize}
+    \item Gerenciar memória;
+    \item Controlar hardware;
+    \item Executar programas;
+    \item Controlar drivers e dispositivos.
+\end{itemize}
+
+%------------------------------------------------
+% CARACTERÍSTICAS DO KERNEL
+%------------------------------------------------
+
+\section{Características do Kernel}
+
+O kernel do Haiku apresenta diversas características importantes:
+
+\begin{itemize}
+    \item Leveza;
+    \item Alto desempenho;
+    \item Multitarefa eficiente;
+    \item Gerenciamento de memória;
+    \item Estabilidade;
+    \item Otimização para desktop.
+\end{itemize}
+
+%------------------------------------------------
+% LINGUAGENS
+%------------------------------------------------
+
+\section{Linguagens de Programação}
+
+\subsection{C++}
+
+Utilizada para alta performance e desenvolvimento de sistemas complexos.
+
+\subsection{C}
+
+Responsável pelo controle de baixo nível e interação direta com hardware.
+
+\subsection{Python}
+
+Usada para produtividade, prototipagem rápida e código limpo.
+
+\subsection{Shell Script}
+
+Utilizada para automação de tarefas e gerenciamento do sistema.
+
+%------------------------------------------------
+% VANTAGENS E DESVANTAGENS
+%------------------------------------------------
+
+\section{Vantagens e Desvantagens}
+
+\subsection{Vantagens}
+
+\begin{itemize}
+    \item Sistema leve e rápido;
+    \item Baixo consumo de recursos;
+    \item Interface simples;
+    \item Boa experiência em computadores mais fracos.
+\end{itemize}
+
+\subsection{Desvantagens}
+
+\begin{itemize}
+    \item Poucos programas disponíveis;
+    \item Comunidade pequena;
+    \item Compatibilidade limitada.
+\end{itemize}
+
+%------------------------------------------------
+% CONCLUSÃO
+%------------------------------------------------
+
+\section{Conclusão}
+
+O Haiku OS é um sistema operacional moderno, leve e eficiente, inspirado diretamente no antigo BeOS.
+Seu foco principal está na simplicidade, desempenho e experiência do usuário no ambiente desktop.
+Mesmo possuindo limitações como menor quantidade de programas e comunidade reduzida, o sistema se destaca por sua rapidez, estabilidade e otimização.
+Dessa forma, o Haiku representa uma alternativa interessante para usuários que procuram um sistema operacional open source leve e funcional.
+
+\end{document}
